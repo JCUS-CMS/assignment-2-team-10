@@ -1,8 +1,8 @@
 <?php
 /**
- * Ass2 Theme Customizer
+ * start-t Theme Customizer
  *
- * @package Ass2
+ * @package start-t
  */
 
 /**
@@ -10,7 +10,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function ass2_customize_register( $wp_customize ) {
+function start_t_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
@@ -18,22 +18,22 @@ function ass2_customize_register( $wp_customize ) {
 	if ( isset( $wp_customize->selective_refresh ) ) {
 		$wp_customize->selective_refresh->add_partial( 'blogname', array(
 			'selector'        => '.site-title a',
-			'render_callback' => 'ass2_customize_partial_blogname',
+			'render_callback' => 'start_t_customize_partial_blogname',
 		) );
 		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
 			'selector'        => '.site-description',
-			'render_callback' => 'ass2_customize_partial_blogdescription',
+			'render_callback' => 'start_t_customize_partial_blogdescription',
 		) );
 	}
 }
-add_action( 'customize_register', 'ass2_customize_register' );
+add_action( 'customize_register', 'start_t_customize_register' );
 
 /**
  * Render the site title for the selective refresh partial.
  *
  * @return void
  */
-function ass2_customize_partial_blogname() {
+function start_t_customize_partial_blogname() {
 	bloginfo( 'name' );
 }
 
@@ -42,14 +42,14 @@ function ass2_customize_partial_blogname() {
  *
  * @return void
  */
-function ass2_customize_partial_blogdescription() {
+function start_t_customize_partial_blogdescription() {
 	bloginfo( 'description' );
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function ass2_customize_preview_js() {
-	wp_enqueue_script( 'ass2-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function start_t_customize_preview_js() {
+	wp_enqueue_script( 'start-t-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'ass2_customize_preview_js' );
+add_action( 'customize_preview_init', 'start_t_customize_preview_js' );
