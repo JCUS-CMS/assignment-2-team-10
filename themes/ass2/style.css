@@ -204,3 +204,6 @@ a.button{
     line-height:2.2em;
     border-bottom:dotted 1px #ccc;
 } 
+.side-widget a{
+    text-decoration: none;
+}
