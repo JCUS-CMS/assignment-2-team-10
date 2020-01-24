@@ -10,11 +10,19 @@ The project creates a website for Doctors Connect Malaysia based on the "Getting
 Environments
 
 The project works in three different environments. The first is to work on the local Worpress production site, including the use of themes and website content editing activities such as website development. The second is to stage the site in the siteground and provide virtual hosting services. The third is the virtual machine used to develop and test the website and cache it on the local device.
+
+
 Technology and tools
+
 WPDistillery / Scotch-Box: A tool for running the Wordpress virtual environment
 Siteground: Provides web hosting services.
 Wordpress: A tool for designing and editing websites
 WP Sync DB: A tool to connect local WordPress and Siteground WordPress databases
+
+Setting up your local environment
+
+
+
 
 Here are the roles of team members：
 
