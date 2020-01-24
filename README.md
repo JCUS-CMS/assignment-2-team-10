@@ -21,7 +21,23 @@ WP Sync DB: A tool to connect local WordPress and Siteground WordPress databases
 
 Setting up your local environment
 
+Open a command terminal and first create a Scotch Box virtual machine
 
+Download Wordpress and use it in Scotch Box
+
+Delete wp-content folder in Wordpress theme files including hidden files (.git files)
+
+Clone and download Github-https://github.com/JCUS-CMS/assignment-2-team-10.git file
+
+Transfer the downloaded file to a wp-content file
+
+Run Scotch Box virtual machine to open Wordpress
+
+Add theme unit tests in wp-content to your local Wordpress website
+
+Website editing on a local wordpress site
+
+Use WP Sync DB plugin to synchronize data between local wordpress and remote wordpres
 
 
 Here are the roles of team members：
