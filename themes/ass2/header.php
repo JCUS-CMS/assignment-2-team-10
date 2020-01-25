@@ -14,7 +14,12 @@
                 <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?> </a>
                 <small><?php bloginfo('description'); ?></small>
             </h1>
-            
+            <div class="h_right">
+                <form method="get" action="<?php esc_url(home_url('/')); ?>"> 
+                    <input type="text" name="s" placeholder="Search...">
+             <aside id="login"><form action="login.php?page=<?php echo $name; ?>" method="post"><input name="username" id="username" type="text" placeholder="Username">   <input name="submit" type="submit" value="Login" ></form></aside>
+                </form>
+            </div>
         </div>
     </header>
     <nav class="nav main-nav">
