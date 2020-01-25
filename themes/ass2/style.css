@@ -147,31 +147,22 @@ article.post{
     overflow:hidden;
 } 
 .main-nav{
-    background:#fff;
+    background:#000;
     color:#fff;
-    padding:7px;
+    padding:5px;
 } 
 .main-nav ul{
     margin:0;
     padding:0;
-    height: 40px;
-    line-height: 40px;
 } 
 .main-nav li{
     list-style:none;
     float:left;
     padding-right:15px;
-    width:1020px;
-    margin:0 auto;
-    overflow: auto
 } 
 .main-nav a{
     color:#fff;
     text-decoration:none;
-    padding: 8px;
-    width:1020px;
-    margin:0 auto;
-    overflow: auto
 }
 .sidebar{
     float:right;
@@ -189,14 +180,14 @@ article.post{
 a.button{
     display:inline-block;
     background:#333;
-    color:#000;
+    color:#fff;
     padding:10px 5px;
     margin-bottom: 10px;
     text-decoration: none;
 }
 .meta{
     background:#333;
-    color:#000;
+    color:#fff;
     padding:5px;
 } 
 .side-widget li{
