@@ -90,7 +90,7 @@ header .h_right{
     float:right;
 }
 header .h_right input[type="text"]{
-    width:300px;
+    width:250px;
     padding:5px;
     margin-top:5px;
 }
