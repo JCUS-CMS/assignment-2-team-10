@@ -96,7 +96,7 @@ header .h_right input[type="text"]{
 }
 nav.nav li {
     float: left;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 nav.nav a {
