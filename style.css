@@ -68,7 +68,7 @@ header{
     border-bottom: 3px solid #b3d1ff;
 }
 header h1{
-    margin:10;
+    margin:0;
     padding:0;
     color:#000;
     float:left;
